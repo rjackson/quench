@@ -19,7 +19,9 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "celluloid", "~> 0.14.0pre"
+
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 2.13"
+  spec.add_development_dependency "minitest", "~> 4.7"
+  spec.add_development_dependency "minitest-emoji"
 end
